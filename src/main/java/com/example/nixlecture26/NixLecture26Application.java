@@ -19,15 +19,15 @@ public class NixLecture26Application {
         SpringApplication.run(NixLecture26Application.class, args);
     }
 
-    /*@Bean
+    @Bean
     public CommandLineRunner run(ApplicationContext ctx){
 
         return (args -> {
-			service.createUserEntity("nikita", "nikita@gmail.com", "0987653422");
+			//service.createUserEntity("nikita", "nikita@gmail.com", "0987653422");
 
             service.getAll().forEach(user -> System.out.println(user));
 
         });
-    }*/
+    }
 
 }
