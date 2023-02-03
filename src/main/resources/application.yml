@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://containers-us-west-89.railway.app:5535/postgres
+    url: jdbc:postgresql://containers-us-west-89.railway.app:5535/railway
     username: ${PGUSER}
     driver-class-name: org.postgresql.Driver
     password: ${PGPASSWORD}
